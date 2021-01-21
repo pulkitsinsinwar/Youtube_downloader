@@ -65,7 +65,7 @@ print(link_amime_type)
 yt = YouTube(link)
 print(yt)
 link_title = yt.title
-#bad_chars = [';', ':', '!', "*","|","@""_","!","#","$","%","^","&","*","()","<",">","?","/","}","{","~","-"]
+bad_chars = [';', ':', '!', "*","|","@""_","!","#","$","%","^","&","*","()","<",">","?","/","}","{","~","-"]
 
 for i in bad_chars:
     link_title = link_title.replace(i, '')
